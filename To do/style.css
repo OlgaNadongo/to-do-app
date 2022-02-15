@@ -1,0 +1,26 @@
+body{
+    background: #C5968C;
+    font-family: 'Gideon Roman', cursive;
+}
+
+h1{
+    color: #581845 ;
+}
+
+button{
+
+    padding:50 px;
+    background-color: #958582;
+    border-radius:5px ;
+    width:150px;
+    height: 150px;
+    color:#581845;
+    display:inline-block;
+    cursor: pointer;
+  
+}
+
+.menu-bar{
+    background:#D3533A ;
+    text-align: center;
+}

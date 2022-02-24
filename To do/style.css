@@ -19,8 +19,37 @@ button{
     cursor: pointer;
   
 }
+#push{
+    height:30px;
+    width: 30px;
+    text-align:center;
+    font-size: 10px;
+}
 
 .menu-bar{
     background:#D3533A ;
     text-align: center;
+}
+
+
+#allBtn{
+    display:none;
+}
+
+#workBtn{
+    display:none;
+}
+
+#studyBtn{
+    display:none;
+}
+#homeBtn{
+    display:none;
+}
+.active ul li:hover .submenu1{
+    display: block;
+    position: absolute;
+}
+.submenu2{
+    display:none;
 }

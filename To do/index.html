@@ -8,19 +8,79 @@
     </head>
     <body>
         <div class="menu-bar">
-            <h1>Grind App</h1>
+            <h1>To do App</h1>
         </div>
         
 
         <div class="parta">
 
-            <button> All</button>
-            <button>Work</button>
+            <button id="al"> All</button>
+            <div id="allBtn">
+            <ol>
+                <li >
+                    <a href="#wrk">Work</a>
+                </li>
+                <li>
+                    <a href="#std">Study</a>
+                </li>
+                
+                <li>
+                    <a href="#hme">Home</a>
+                </li>
+            </ol>
+            </div>
+
+
+            <button id="wrk">Work</button>
+            <div id="workBtn">
+            <ol>
+                <li>Deliver client project</li>
+                <li>Call client at 2pm</li>
+                <div class="container">
+                    <div id="newtask">
+                        <input type="text" placeholder="Add Task">
+                        <button id="push">Add</button>
+                    </div>
+                </div>
+            </ol>
+
+            </div>
         </div>
 
         <div class="partb">
-            <button>Study</button>
-            <button>Home</button>
+
+            <button id="std">Study</button>
+            <div id="studyBtn">
+            <ol>
+              <li>Introduction to Javascript</li>
+              <li>Data types</li>
+              <li>Javascript Functions </li>
+              <li> Adding EventListeners</li>
+              <div class="container">
+                <div id="newtask">
+                    <input type="text" placeholder="Add Task">
+                    <button id="push">Add</button>
+                </div>
+            </div>
+            </ol>
+
+            </div>
+
+            <button id="hme">Home</button>
+            <div id="homeBtn">
+            <ol>
+                <li>Do  Laundry</li>
+                <li>Clean windows</li>
+                <li>Repair sink</li>
+                <div class="container">
+                    <div id="newtask">
+                        <input type="text" placeholder="Add Task">
+                        <button id="push">Add</button>
+                    </div>
+                </div>
+            </ol>
+
+            </div>
         </div>    
        
         <script src="app.js"></script>

@@ -2,6 +2,7 @@
 <html lang="en-US">
     <head >
         <title>To do app</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet" >
         <link rel="preconnect" href="https://fonts.googleapis.com">
         
@@ -33,16 +34,57 @@
 
             <button id="wrk">Work</button>
             <div id="workBtn">
-            <ol>
+                <header>
+                    <h2>Task List 2022</h2>
+                    <form id="newTask">
+                        <input
+                        type="text"
+                        id="newtaskinput" 
+                        placeholder="what to achieve today"/>
+
+                        <input
+                        type="submit"
+                        id="submit new task"
+                        value="add task"/>
+    
+                    </form>
+                </header>
+
+                <main>
+                    <section>
+                        <h3>Tasks</h3>
+
+                        <div id="tasks">
+                            <div class="content">
+                                <input 
+                                type="text"
+                                class="text"
+                                value="tasks for today"
+                                readonly
+                                />
+
+                            </div>
+                            <div class="actions">
+                                <button class="edit">Edit</button>
+                                <button class="delete">Delete</button>
+
+                            </div>
+                        </div>
+
+                    </section>
+                </main>
+               
+
+            <!--<ol>
                 <li>Deliver client project</li>
                 <li>Call client at 2pm</li>
                 <div class="container">
                     <div id="newtask">
                         <input type="text" placeholder="Add Task">
-                        <button id="push">Add</button>
+                        <button id="push">Add task</button>
                     </div>
                 </div>
-            </ol>
+            </ol>-->
 
             </div>
         </div>

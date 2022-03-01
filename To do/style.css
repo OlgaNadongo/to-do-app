@@ -12,16 +12,34 @@ button{
     padding:50 px;
     background-color: #958582;
     border-radius:5px ;
-    width:150px;
-    height: 150px;
+    width: 220px;;
+    height: 220px;
     color:#581845;
     display:inline-block;
     cursor: pointer;
-  
+    text-align: center;
+    
+}
+header{
+    padding: 2rem 1rem;
+    max-width:10px;
+    width: 50%
+    
+}
+
+.edit{
+    height:20px ;
+    width:40px;
+    text-align: center;
+}
+.delete{
+    height:20px ;
+    width:55px;
+    text-align: center;
 }
 #push{
-    height:30px;
-    width: 30px;
+    height:25px;
+    width: 70px;
     text-align:center;
     font-size: 10px;
 }
@@ -31,6 +49,12 @@ button{
     text-align: center;
 }
 
+.parta{
+    text-align: center;
+}
+.partb{
+    text-align: center;
+}
 
 #allBtn{
     display:none;
